@@ -22,11 +22,8 @@ h1 {
 #featured h1 {
     /* text-align: right; */
     font-size: 3.5rem;
-}
-
-#wrapper h1 {
-    color: var(--orangeone);
-
+    color: var(--white);
+    margin-top: 20px;
 }
 
 #featured img {
@@ -167,11 +164,9 @@ h1 {
 
 /* donors section */
 
-.donors-section{
+.donors-section {}
 
-}
-
-.donors{
+.donors {
     display: flex;
     justify-content: center
 }
@@ -207,7 +202,7 @@ h1 {
     h1 {
         text-align: center;
         font-size: 3rem;
-
+        margin: 20px;
     }
 
     p {
@@ -220,9 +215,7 @@ h1 {
         justify-content: flex-start;
     }
 
-    h1 {
-        margin: 20px;
-    }
+
 
     .slider-container {
         max-width: 100%;
@@ -235,6 +228,6 @@ h1 {
 
     /* for volunteer */
     .volunteer {
-          width: 200%;
+        width: 200%;
     }
 }
